@@ -1,3 +1,12 @@
+## Changes Made
+
+- Introduced hyperparameter tuning for the Random Forest classifier to optimize the number of estimators and maximum depth of trees.
+  - Hyperparameter tuning can lead to better model performance by finding the optimal combination of parameters, resulting in improved accuracy.
+- Made other minor modifications to the code to enhance readability and maintainability.
+
+The addition of hyperparameter tuning allows the Random Forest classifier to be fine-tuned for optimal performance on the dataset. By systematically searching through a range of parameter values, we can identify the combination that yields the best results in terms of accuracy. This approach helps in mitigating overfitting and underfitting issues, resulting in more robust and reliable models.
+
+Additionally, other minor modifications were made to the code to improve its readability and maintainability, ensuring that it remains easy to understand and extend in the future.
 # Job Document Classification Model
 
 ## Overview
